@@ -1,0 +1,46 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: blueviolet;
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    padding: 50px;
+    
+}
+.text-cont{
+
+    color: white;
+    width: 50%;
+    font-size: .45em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.img-cont{
+    background-color: blanchedalmond;
+    height: 100%;
+    width: 50%;
+}
+
+ .text-discription{
+    
+ }
+
+
+.stat{
+    display: flex;
+    gap: 20px;
+}
